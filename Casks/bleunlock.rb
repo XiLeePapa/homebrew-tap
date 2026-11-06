@@ -7,7 +7,7 @@ cask "bleunlock" do
   desc "Lock/unlock Mac using the proximity of a Bluetooth Low Energy device (XiLeePapa fork with device names and distance)"
   homepage "https://github.com/XiLeePapa/BLEUnlock"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "BLEUnlock.app"
 
